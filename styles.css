@@ -1,37 +1,43 @@
-.diccionario {
-         
-         background: bisque;
-         display: flex;
-         justify-content: space-around;
-}
-.formulario {
-         
-         padding-top: 10%; 
-         font-size: 130%;
-            
-}
-form{    
-         display: flex;
-        
-         flex-direction: column;
-         
-        
-}
-.elementos {
-         background: salmon;
-         padding-top: 10%;
-}
-input {
-         padding: 5%;
-         font-size: 120%;
-}
+*{
+  margin: 0;
 
-.salida {
-        
-         padding: 5%;
-         
-         
 }
 p {
-         padding-right: 30%;
+  margin-bottom:  10%;
+  
+}
+h1 {
+  margin-bottom:  10%;
+}
+.diccionario {
+         background: rgb(83, 68, 50);
+         display: flex;
+         justify-content: space-around;}
+.formulario {
+        
+          padding-top: 5%; 
+         font-size: 120%;}
+.form{    
+         display: flex;
+    flex-direction: column;    }
+.elementos {
+         
+         
+         padding-top: 10%;}
+input {
+         padding: 5%;
+         font-size: 120%;}
+.salida {
+  padding: 10%;
+  color: rgb(121, 201, 201);
+}
+.resp {
+  color: rgb(165, 165, 165);
+}
+.pie {
+  display: flex;
+  padding-bottom: 10%;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,3,1) 0%, rgba(0,212,255,1) 100%);;
+  
 }
